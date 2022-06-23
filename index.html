@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>milad weather</title>
+     <link rel="stylesheet" href="stles/bootstrap.min.css">
+     <script src="scripts/jquery.min.js"></script>
+     <script src="scripts/popper.min.js"></script>
+     <script src="scripts/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="stles/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center text-muted py-5">Milad Weather</h1>
+        
+
+        <form class="form-enter text-center text-muted-">
+            <label for="city" >Enter a location for weather information</label>
+            <input type="text" id="city" class="form-control p-4">
+        </form>
+
+        <div class="card my-4 mx-auto">
+            <img src="https://via.placeholder.com/400x300" class="time card-img-top">
+            <div class="icon"></div>
+            <div class="features my-3 text-center text-uppercase ">
+                <h5 class="text-muted my-4 city-name">city name</h5>
+                <div class="text-muted my-4 condition">weather condition</div>
+                <div class="text-muted my-4 display-4 temp">
+                    <span>temp</span>
+                    <span>&deg;c</span>
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+
+
+
+<script src="scripts/forecast.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
